@@ -1,0 +1,22 @@
+{
+  "name": "@hcmus-toolkit/core",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./dist/core.js",
+  "types": "./dist/main.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "test": "vitest run",
+    "test:w": "vitest",
+    "bundle": "tsc && vite build",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.33",
+    "@types/knockout": "^3.4.77",
+    "@types/toastr": "^2.1.43",
+    "vite": "catalog:",
+    "vite-plugin-dts": "catalog:"
+  }
+}
