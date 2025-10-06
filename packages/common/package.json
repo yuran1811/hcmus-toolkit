@@ -1,0 +1,19 @@
+{
+  "name": "@hcmus-toolkit/common",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./dist/common.js",
+  "types": "./dist/main.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "test": "vitest run",
+    "test:w": "vitest",
+    "bundle": "tsc && vite build",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "vite": "catalog:",
+    "vite-plugin-dts": "catalog:"
+  }
+}
